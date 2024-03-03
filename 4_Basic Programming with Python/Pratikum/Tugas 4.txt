@@ -1,0 +1,86 @@
+Soal Prioritas 1 (80)
+
+Buatlah sebuah program untuk menghitung luas persegi panjang. Kemudian dari hasil perhitungan luas tersebut tampilkan tulisan “even rectangle” jika luas merupakan bilangan genap dan tampilkan tulisan “odd rectangle” jika luas merupakan bilangan ganjil. Rumus perhitungan luas persegi panjang adalah sebagai berikut:
+
+
+Buatlah sebuah program untuk menghitung volume bola. Volume tabung dapat dihitung dengan rumus berikut:
+
+
+Catatan: gunakan nilai Phi  = 3.14
+
+Buatlah sebuah program yang mencetak angka dari 1 sampai 100 dengan kriteria sebagai berikut:
+ Jika bilangan merupakan kelipatan 3 maka tampilkan hasil kuadrat dari bilangan tersebut.
+Jika bilangan merupakan kelipatan 5 maka tampilkan hasil perpangkatan 3 dari bilangan tersebut.
+Jika bilangan merupakan kelipatan 3 dan 5 maka tampilkan tulisan “buzz”
+Jika tiga kriteria diatas tidak terpenuhi maka tampilkan bilangan aslinya.
+Contoh output adalah seperti ini:
+
+
+
+
+📚 Soal Prioritas 2 (20)
+Buatlah sebuah program untuk menentukan tarif pengiriman paket berdasarkan berat paket dan jarak yang ditempuh dengan spesifikasi berikut:
+
+
+Tarif keseluruhan = tarif berdasarkan berat + tarif berdasarkan jarak
+
+
+Input:
+
+Berat: 24
+Jarak:  10
+Output: 20000
+
+
+Input:
+
+Berat: 20
+Jarak: 40
+Output: 25000
+
+
+Buatlah sebuah program untuk menentukan prioritas dari sebuah proyek berdasarkan budget, waktu pengerjaan dan tingkat kesulitan. Kriteria dari penentuan proyek adalah menggunakan skor secara keseluruhan. Perhitungan skor dari setiap faktor tersebut dihitung dengan kriteria berikut:
+
+Budget
+
+
+Waktu Pengerjaan
+
+
+
+
+
+Tingkat Kesulitan
+
+ 
+
+        Hasil prioritas proyek diambil dari skor yang sudah dihitung.
+
+        
+
+
+Impossible
+
+
+
+Test case:
+
+Input:
+
+Budget: 40
+Waktu pengerjaan: 25
+Tingkat kesulitan: 5
+        
+
+        Output: Medium
+
+        
+
+Input:
+
+Budget: 51
+Waktu pengerjaan: 10
+Tingkat kesulitan: 3
+        
+
+        Output: High
