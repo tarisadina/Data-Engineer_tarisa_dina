@@ -1,0 +1,17 @@
+Soal Prioritas 1 
+
+Sistem untuk mengelola aktivitas di sebuah pusat kebugaran, termasuk pelanggan, pelatih, dan berbagai kelas latihan.
+1.	Desain Kelas Pelanggan:
+•	Buat kelas Pelanggan dengan atribut privat seperti nama, usia, dan ID pelanggan.
+•	Implementasikan metode get dan set untuk setiap atribut (Encapsulation).
+•	Tambahkan metode tampilkanInfo() untuk menampilkan informasi pelanggan (Data Abstraction).
+2.	Desain Kelas Pelatih:
+•	Buat kelas Pelatih dengan atribut privat seperti nama, spesialisasi, dan tahun pengalaman.
+•	Implementasikan metode get dan set serta tampilkanInfo() (Encapsulation dan Data Abstraction).
+3.	Desain Kelas KelasLatihan:
+•	Buat kelas KelasLatihan yang mewarisi dari kelas Pelatih dan menambahkan atribut seperti jenis latihan dan jadwal (Inheritance).
+•	Override metode tampilkanInfo() untuk menampilkan informasi tambahan (Polymorphism).
+4.	Demonstrasi:
+•	Buat objek Pelanggan dan Pelatih, serta beberapa objek KelasLatihan.
+•	Tampilkan informasi setiap objek menggunakan metode tampilkanInfo().
+
