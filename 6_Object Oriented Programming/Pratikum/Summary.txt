@@ -1,0 +1,7 @@
+OBJECT-ORIENTED PROGRAMMING ATAU DISINGKAT OOP
+
+OOP merupakan bahasa pemrograman yang memiliki pandangan atau paradigma yang menggunakan orientasi object 
+yang meliputi basic analogy seperti Class, Attributes, dan Method. Perintah dalam OOP diwakilkan oleh sebuah object.
+seperti contohnya membuat Class Laptop yang memiliki Attributes "Pemilik", "Warna" atau "RAM", serta Method seperti "Matikan" dan "Nyalakan"
+maka Objek dalam sebuah Class Laptop yaitu merk seperti "Lenovo", selanjutnya yaitu menginstansiasikan dulu pada Class Laptop dan memanggil method untuk menampilkan nama pemilik, warna, serta RAM.
+Pada import Method dan Function terdapat Function Name, Parameter, dan Return.
