@@ -1,0 +1,5 @@
+Data Structure and Algorithm
+
+Data Structure merupakan cara menyusun dan menyimpan data yang betujuan untuk memudahkan jika dapat memerlukan menyimpan data, mengakses, dan memanipulasi.
+kita juga dapat mengelompokkan sesuai pada jenis nya misalkan kita memiliki data alat musik, kita dapat mengelompokkannya seperti warna, jenis, dan genre. 
+Sedangkan pada Algorithm merupakan metode atau langkah langkah atau bahan yang digunakan untuk menyelesaikan masalah secara tersusun dan berurutan. 
