@@ -1,28 +1,28 @@
 import uuid
 
-expenses = []
+pengeluaran = []
 
 
-def add_expense():
+def tambahPengeluaran():
     name = input("Masukkan nama pengeluaran: ")
     amount = float(input("Masukkan jumlah pengeluaran: "))
     expense = {"id": str(uuid.uuid4()), "name": name, "amount": amount}
-    expenses.append(expense)
+    pengeluaran.append(expense)
     print("Pengeluaran berhasil ditambahkan.")
 
 
-def view_expenses():
-    total_expenses = sum(expense["amount"] for expense in expenses)
+def lihatPengeluaran():
+    total_pengeluaran = sum(expense["amount"] for expense in pengeluaran)
     print("Data Pengeluaran:")
-    for expense in expenses:
+    for expense in pengeluaran:
         print(
             f"ID: {expense['id']}, Nama: {expense['name']}, Jumlah: {expense['amount']}")
-    print(f"Total Pengeluaran: {total_expenses}")
+    print(f"Total Pengeluaran: {total_pengeluaran}")
 
 
-def update_expense():
+def ubahPengeluaran():
     expense_id = input("Masukkan ID pengeluaran yang ingin diubah: ")
-    for expense in expenses:
+    for expense in pengeluaran:
         if expense['id'] == expense_id:
             name = input(
                 "Masukkan nama pengeluaran baru (kosongkan jika tidak ingin diubah): ")
@@ -37,11 +37,11 @@ def update_expense():
     print("ID pengeluaran tidak ditemukan.")
 
 
-def delete_expense():
+def hapusPengeluaran():
     expense_id = input("Masukkan ID pengeluaran yang ingin dihapus: ")
-    for expense in expenses:
+    for expense in pengeluaran:
         if expense['id'] == expense_id:
-            expenses.remove(expense)
+            pengeluaran.remove(expense)
             print("Pengeluaran berhasil dihapus.")
             return
     print("ID pengeluaran tidak ditemukan.")
@@ -58,15 +58,15 @@ def main():
         choice = input("Pilih menu: ")
 
         if choice == '1':
-            add_expense()
+            tambahPengeluaran()
         elif choice == '2':
-            view_expenses()
+            lihatPengeluaran()
         elif choice == '3':
-            update_expense()
+            ubahPengeluaran()
         elif choice == '4':
-            delete_expense()
+            hapusPengeluaran()
         elif choice == '5':
-            print("Terima kasih! Sampai jumpa.")
+            print("Terima kasih! bye...")
             break
         else:
             print("Menu tidak valid, silakan pilih menu yang tersedia.")

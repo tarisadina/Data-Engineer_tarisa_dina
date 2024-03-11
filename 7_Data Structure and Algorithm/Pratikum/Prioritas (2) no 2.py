@@ -28,8 +28,15 @@ def prime_rectangle(height, width, start):
         result.append(row)
     for row in result:
         print(" ".join(map(str, row)))
+
     print(prime_sum)
 
 
+print("'''")
 prime_rectangle(2, 3, 13)
+print("'''")
+
+print("  ")
+print("'''")
 prime_rectangle(5, 2, 1)
+print("'''")
