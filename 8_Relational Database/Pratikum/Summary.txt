@@ -1,0 +1,4 @@
+Database merupakan sekumpulan data yang terorganisir(Nurhadi - Aldo), DBMS(Database Management System) merupakan aplikasi yang digunakan untuk memanage data dalam hal ini
+kita dapat menyimpan data tanpa harus menyimpan dalam bentuk file contoh seperti excel. DBMS yang digunakan untuk menyimpan file yang dapat digunakan sesuai perintah 
+dengan menambahkan, mengubah, menghapus, dan mengakses data. Contoh DBMS seperti MySql, Jenis dalam DBMS seperti Relation database, document database, key value database, dll.
+relational database menjadi jenis yang sering digunakan oleh kebanyakan orang karena cukup dimengerti karena dengan bentuk table seperti Excel atau Spredsheet.
