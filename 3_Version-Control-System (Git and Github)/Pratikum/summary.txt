@@ -1,0 +1,5 @@
+Git adalah tools yang digunakan untuk membangun sebuah website atau software yang memiliki fungsi untuk control system menjalankan project dalam pengembangan website atau software. Git ini memiliki tujuan untul mengelola versi source code dari 
+suatu program dengan menentukan baris serta kode yang akan ditambahkan.
+Git menjadi vesion control system yang banyak digunakan programmer, dibutuhkan unutk mengerjakan project. Git ini merupakan version control system populer yang digunakan para developer untuk mengembangkan software secraa bersama - sama.
+Github adalah manajemen project, sistem versionong code yang digunakan banyaknya orang untuk menyimpan dan mengelola berbagai project atau repository git. Github ini bersifat online sehingga dapat ditambahkan, diedit, maupun dihapus, maka platform 
+ini sangat membantu kerja individu maupun team untuk menyusun suatu folder yang berisikan file terkait program yang sedang dijalani atau di kelola.

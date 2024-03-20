@@ -1,0 +1,3 @@
+Algoritma merupakan metode komputasi yang didefinisikan dengan baik dengan tujuan langkah yang direncanakan tersusun secara berurutab dalam menyelesaikan sebuah problem
+Algoritma menurut (Kani, 2020, 1.19) adalah suatu upaya dengan urutan operasi yang disusun secara logis dan sistematis untuk menyelesaikan suatu masalah untuk menghasilkan suatu output tertentu.
+Pada hal ini algoritma dapat dimulai dengan input dengan pengolahan data serta menghasilkan output yang diinginkan. Contoh algoritma yaitu check prime number, sorting, dan searching. 
