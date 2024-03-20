@@ -1,0 +1,3 @@
+Data Engineering merupkaan proses data mentah yang akan dikembangkan dalam mengelola, mengolah, serta menganalisis data dalam skala cukup beserta
+tujuan utama dari data engineer ini merupakan untuk memastikan data dapat diakses, diproses, dan dikelola agar efisien.
+tugas dari data engineer yaitu pengumpulkan data, memproses data, mengelola data, serta menganalisis data yang telah di proses sebelumnya. 

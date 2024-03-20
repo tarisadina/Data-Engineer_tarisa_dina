@@ -1,4 +1,3 @@
-Task
 Soal Prioritas 1
 1.      Sebutkan dan jelaskan berbagai skill yang dibutuhkan untuk menjadi seorang data engineer! (minimal 3)
 ·Memiliki skill Python yang merupakan bahasa pemrograman mudah dipelajari, dan dapat membuat solusi dan memperluas sesuai perkembangan data.
@@ -7,7 +6,6 @@ Soal Prioritas 1
  
 2.      Sebutkan dan jelaskan urgensi / pentingnya peran data engineer dalam industri di saat ini!
 Pada pentingnya peran data engineer dalam industri saat ini yang pertama dalam pengambilan keputusan. Data engineer dapat berfokus pada pengaturan dalam pengisian database untuk mengembangkan skema table database. Tugas utama dalam data engineering yaitu dengan dapat memproses data pada sumber penyimpanan yang sesuai, contohnya seperti data warehouse. Pada data engineer dapat mempersiapkan data yang siap digunakan dengan contoh seperti reliable data flow, infrastructure, pipelines, dan lain sebagainya, untuk data yang disiapkan dapat digunakan oleh data analyst.  
-
 Soal Prioritas 2
 1.      Sebuah rumah sakit bernama Alta Medika ingin mengelola berbagai data yang telah dikumpulkan seperti data pasien, data komplain, data survei kepuasan pelayanan, data dokter dan data lainnya. Untuk mengelola berbagai data tersebut dapat dilakukan dengan mengembangkan sebuah data pipeline. Berdasarkan kasus ini sebutkan jenis data pipeline yang cocok digunakan beserta alasannya!
 Pada kasus diatas jenis data pipeline yang digunakan yaitu :
