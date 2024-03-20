@@ -1,0 +1,2 @@
+API adalah singkatan dari (Application Programming Interface) yang digunkana untuk komunikasi dan pertukaran data untuk 2 atau software atau sistem yang memiliki jarak jauh atau terpisah
+REST merupakan (Representational State Transfer) 
