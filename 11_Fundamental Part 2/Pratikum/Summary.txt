@@ -1,0 +1,52 @@
+**Data Terstruktur**
+Data terstruktur adalah data yang memiliki format standar untuk akses yang efisien oleh perangkat lunak dan manusia. 
+Data terstruktur biasanya berbentuk tabel dengan baris dan kolom yang dengan jelas mendefinisikan atribut data. 
+Komputer dapat secara efektif memproses data terstruktur untuk wawasan karena sifat kuantitatifnya. 
+Misalnya, tabel data pelanggan terstruktur yang berisi kolom, yaitu nama, alamat, dan nomor telepon, yang dapat memberikan wawasan seperti total jumlah pelanggan serta lokalitas dengan jumlah maksimum pelanggan. 
+Sebaliknya, data tidak terstruktur, seperti daftar postingan media sosial, lebih menantang untuk dianalisis.
+Data terstruktur kurang fleksibel karena bergantung pada organisasi model data yang ketat. Data tersebut bergantung pada skema. Skema database adalah singkatan dari konfigurasi kolom (juga disebut kolom) dan tipe data yang disimpan di kolom tersebut. 
+Ketergantungan seperti ini merupakan keuntungan sekaligus kerugian. Meskipun informasi di sini dapat dicari dan diproses dengan mudah, semua catatan harus mengikuti persyaratan skema yang sangat ketat.
+
+- Atribut yang dapat ditentukan
+Data terstruktur memiliki atribut yang sama dengan semua nilai data.  Misalnya, setiap catatan pemesanan dapat memiliki atribut berikut:
+nama pemesanan, nama peristiwa, tanggal peristiwa, dan jumlah pemesanan.
+Tabel data terstruktur memiliki nilai umum yang menautkan set data berbeda secara bersamaan. Misalnya, Anda dapat menghubungkan data pelanggan dengan data pemesanan menggunakan bidang id pelanggan dan id pemesanan. 
+Jadi Anda dapat menyimpan data terstruktur pada basis data relasional dengan nyaman.
+
+- Manfaat pada data terstruktur
+Mudah dipahami dan mudah untuk mengakses data terstruktur, pada penyimpanan efisien karena unit penyimpanan dialokasikan untuk nilai data.
+Data terstruktur memiliki format yang terdefinisi dengan jelas, seperti kolom dan baris dalam tabel. Hal ini membuatnya lebih mudah untuk dipahami dan diprediksi oleh data engineer. 
+Mudah untuk mengetahui struktur data dan bagaimana data tersebut disimpan, memfasilitasi proses pengelolaan dan pemrosesan data.
+Data terstruktur memungkinkan untuk mengatur data dalam format yang terorganisir dengan baik, yang mempermudah proses pengelolaan, pengindeksan, dan penjelajahan data. 
+Selain itu, integrasi dengan alat dan platform lainnya seringkali lebih mudah dilakukan dengan data terstruktur karena struktur data yang jelas.
+Data terstruktur sering kali menyediakan informasi yang lebih lengkap dan terstruktur, yang memungkinkan data engineer untuk melakukan analisis yang lebih mendalam dan akurat. 
+Hal ini dapat membantu organisasi dalam pengambilan keputusan yang lebih baik dan strategis.
+
+-Penyimpanan
+Menyimpan data di basis data relasional dan mengelolanya menggunakan bahasa kueri terstruktur (SQL). SQL membuat Anda menentukan model data yang disebut skema di mana Anda menentukan aturan yang telah ditetapkan, seperti bidang, format, dan nilai untuk data Anda. 
+Kemudian akan dapat menyimpan data terstruktur di gudang data atau teknologi basis data relasional lainnya.
+Pada penyimpanan jenis database yang sesuai dengan kebutuhan aplikasi dan karakteristik data. Untuk data terstruktur, database relasional seperti MySQL, PostgreSQL, atau SQL Server seringkali menjadi pilihan yang baik karena mereka memiliki skema yang 
+terdefinisi dengan baik dan mendukung transaksi yang kompleks.
+Lakukan pemodelan data untuk menentukan struktur tabel dan relasi antar tabel. Ini melibatkan mendefinisikan skema database, termasuk tabel, kolom, dan kunci. Pastikan untuk mempertimbangkan kebutuhan pengguna akhir dalam desain skema database.
+data disimpan dalam database, data engineer dapat melakukan pemrosesan data tambahan seperti pembersihan data, transformasi data, dan penggabungan data menggunakan bahasa SQL atau alat ETL (Extract, Transform, Load) seperti Apache Spark, Apache Flink, atau Apache NiFi.
+Basis data relasional menggunakan SQL, atau Structured Query Language, untuk menjangkau data yang disimpan dan memanipulasinya. Sintaks SQL mirip dengan bahasa Inggris, memberikan kesederhanaan dalam menulis, membaca, dan menafsirkannya.
+
+
+**Unstructured Data**
+Data tidak terstruktur tidak memiliki struktur yang telah ditentukan sebelumnya dan hadir dalam berbagai bentuk. Contoh data tidak terstruktur bervariasi dari gambar dan file teks seperti dokumen PDF hingga file video dan audio, dan masih banyak lagi.
+Masalah dengan data tidak terstruktur adalah metode dan alat tradisional tidak dapat digunakan untuk menganalisis dan memprosesnya. Salah satu cara untuk mengelola data tidak terstruktur adalah dengan memilih database non-relasional, yang juga dikenal sebagai NoSQL .
+Dengan mempertimbangkan seluruh variasi format file data tidak terstruktur, tidak mengherankan jika format ini mencakup lebih dari 80 persen seluruh data. Oleh karena itu, perusahaan yang mengabaikan data tidak terstruktur akan tertinggal jauh karena tidak mendapatkan cukup informasi berharga.
+Tidak seperti data terstruktur, format data tidak terstruktur disajikan dalam berbagai bentuk dan ukuran. Data tidak terstruktur tidak memiliki model data yang telah ditentukan sebelumnya dan disimpan dalam format aslinya (alias format “asli”). Itu bisa berupa file audio (WAV, MP3, OGG, dll.) 
+atau file video (MP4, WMV, dll.), dokumen PDF, gambar (JPEG, PNG, dll.), email, postingan media sosial, data sensor, dll.
+
+-Manfaat 
+Unstructured data dapat menyediakan informasi tambahan yang tidak tersedia dalam data terstruktur. Misalnya, teks dalam dokumen, email, atau media sosial dapat mengungkapkan wawasan tambahan tentang preferensi pelanggan, tren pasar, atau masalah yang mungkin terjadi.
+Data teks unstructured dapat digunakan untuk menganalisis sentimen, opini, atau perasaan pelanggan terhadap produk atau layanan tertentu. Hal ini memungkinkan perusahaan untuk mendapatkan pemahaman yang lebih baik tentang persepsi pelanggan dan merespons dengan lebih tepat.
+Unstructured data dari platform media sosial seperti Twitter, Facebook, dan Instagram dapat digunakan untuk memantau percakapan publik tentang merek, produk, atau topik tertentu. Data ini dapat memberikan wawasan tentang popularitas, tren, atau masalah yang muncul yang dapat digunakan untuk menginformasikan strategi bisnis.
+
+-Penyimpanan
+data tidak terstruktur, opsi yang paling cocok untuk jenis data ini adalah database non-relasional, juga dikenal sebagai database NoSQL .
+NoSQL adalah singkatan dari "tidak hanya SQL". Basis data ini memiliki berbagai model data dan menyimpan data dengan cara non-tabular. Jenis database NoSQL yang paling umum adalah nilai kunci, dokumen, grafik, dan kolom lebar. Basis data semacam itu dapat memproses data dalam jumlah besar 
+dan menangani beban pengguna yang tinggi karena cukup fleksibel dan terukur. Di dunia NoSQL, terdapat kumpulan data, bukan tabel. Dalam koleksi ini ada yang disebut dokumen. Meskipun dokumen mungkin terlihat seperti baris dalam tabel, dokumen tersebut tidak menggunakan skema yang sama. 
+Dimungkinkan untuk memiliki banyak dokumen dalam satu koleksi yang memiliki bidang berbeda. Selain itu, hanya ada sedikit atau bahkan tidak ada hubungan antar item data. Idenya di sini adalah untuk mengurangi penggabungan relasi dan sebagai gantinya memiliki kueri yang super cepat dan efisien.
+Meskipun demikian, akan ada beberapa duplikat data.
