@@ -1,0 +1,14 @@
+1. Sebutkan dan jelaskan tantangan yang perlu dihadapi dalam penggunaan Data Warehouse!
+    - penggunaan data warehouse membawa berbagai tantangan yang perlu diatasi agar sistem dapat berjalan dengan efisien dan memberikan nilai tambah yang diharapkan. 
+      Data warehouse menggabungkan data dari berbagai sumber yang mungkin memiliki format, struktur, dan kualitas yang berbeda. Tantangan utama adalah mengintegrasikan 
+      data tersebut secara konsisten sehingga dapat diolah dan dianalisis dengan benar. 
+    - Integrasi Data: menyatukan semuanya, engintegrasikan data dari berbagai sumber adalah tantangan pertama dan paling signifikan yang dihadapi perusahaan ketika 
+      mereka terlibat dalam menyiapkan gudang data. Tim pemasaran mengandalkan berbagai sumber data, termasuk data pelanggan yang biasanya ada di CRM; analisis situs 
+      web biasanya didasarkan pada alat penandaan seperti GTM; metrik media sosial diambil dari berbagai platform media sosial seperti Facebook, TikTok, Instagram, dll., 
+      dan mengirimkan informasi terkait melalui email. Mengintegrasikan data dari berbagai sumber ini dapat memakan waktu, terutama bila banyak sumber data yang digunakan. 
+      Menyatukan struktur, tipe, dan format data yang berbeda dapat menjadi tantangan dan memerlukan sumber daya khusus untuk memeliharanya. Penyedia data ini tidak mempunyai 
+      insentif untuk melakukan standarisasi dan memudahkan analisis data mereka di tempat lain; mereka terutama ingin Anda kembali ke platform spesifik mereka.
+    - Kualitas Data: Data yang Baik lebih baik daripada Data Besar, Kualitas data merupakan tantangan penting lainnya bagi perusahaan ketika membangun gudang data. Memastikan 
+      integritas data adalah hal yang paling penting bagi tim pemasaran, karena pelaporan dan analisis yang tidak akurat dapat menghambat proses pengambilan keputusan mereka. 
+      ntuk menjamin kualitas data, perusahaan B2C harus menerapkan kerangka tata kelola data komprehensif yang mencakup validasi, pembersihan, dan jaminan kualitas data. 
+      Instrumen khusus tertentu, seperti Sifflet , dapat membantu memelihara saluran data dengan kualitas tertinggi. Untuk menghindari perbedaan data, penting untuk memastikan keakuratan, kelengkapan, dan konsistensinya.

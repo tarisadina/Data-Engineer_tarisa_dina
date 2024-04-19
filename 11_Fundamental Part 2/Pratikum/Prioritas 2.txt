@@ -1,5 +1,0 @@
-Sebuah perusahaan ingin mengimplementasikan data lake untuk mengelola data besar yang mereka miliki, yang mencakup data terstruktur, semi-terstruktur, dan tidak terstruktur. 
-Jelaskan bagaimana Anda akan merancang dan mengimplementasikan data lake ini, termasuk alat dan teknologi yang akan digunakan, serta bagaimana data lake ini akan berintegrasi dengan sistem data lainnya di perusahaan.
- -Merancang dan mengimplementasikan sebuah data lake untuk mengelola data besar yang mencakup berbagai jenis data (terstruktur, semi-terstruktur, dan tidak terstruktur) memerlukan perencanaan dan pemilihan teknologi yang tepat.
-  Pilih platform atau teknologi data lake yang sesuai dengan kebutuhan perusahaan. Contoh platform data lake termasuk Amazon S3, Microsoft Azure Data Lake Storage, Google Cloud Storage, atau Apache Hadoop. 
-  Pertimbangkan kebutuhan keamanan dan kepatuhan data saat merancang arsitektur, termasuk enkripsi data, pembatasan akses, dan audit logging. Tentukan sumber data yang akan dimasukkan ke dalam data lake, termasuk basis data perusahaan, sistem streaming, data sensor, log aplikasi, dan sumber data eksternal lainnya.
