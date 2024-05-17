@@ -1,0 +1,9 @@
+
+
+Proses kerja umum dari kebanyakan sistem kecerdasan buatan (AI) melibatkan langkah-langkah berikut:
+
+Input Data: Pertama, sistem AI menerima input data dalam bentuk yang sesuai dengan jenis tugas yang ingin diselesaikan. Input data ini bisa berupa teks, gambar, suara, atau data terstruktur lainnya, tergantung pada jenis tugas yang ingin diselesaikan.
+
+Preprocessing: Setelah menerima input data, langkah selanjutnya adalah preprocessing. Ini melibatkan langkah-langkah seperti membersihkan data, menghilangkan noise, mengubah format data, dan mempersiapkan data agar sesuai dengan kebutuhan model AI yang akan digunakan.
+
+Feature Extraction: Untuk jenis tugas tertentu seperti pengenalan pola atau klasifikasi, fitur-fitur yang relevan dari data mungkin perlu diekstrak. Ini dapat melibatkan proses ekstraksi fitur manual atau menggunakan teknik seperti penggunaan jaringan saraf konvolusional untuk ekstraksi fitur dari gambar.
