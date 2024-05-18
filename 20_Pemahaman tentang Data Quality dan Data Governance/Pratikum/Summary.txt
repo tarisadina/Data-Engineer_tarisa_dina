@@ -1,0 +1,19 @@
+Pemahaman tentang Data Quality dan Data Governance merujuk pada praktik dan konsep yang digunakan untuk memastikan kualitas, keandalan, keamanan, dan kepatuhan data dalam suatu organisasi. 
+Berikut adalah penjelasan rinci tentang keduanya:
+
+Data Quality:
+
+Definisi: Data Quality merujuk pada tingkat keunggulan atau kualitas data. Ini mencakup sejumlah dimensi, termasuk akurasi, ketepatan waktu, kesesuaian, kelengkapan, konsistensi, dan keandalan data.
+Tujuan: Tujuan dari Data Quality adalah memastikan bahwa data yang digunakan oleh organisasi adalah akurat, lengkap, konsisten, dan dapat diandalkan. Data yang berkualitas baik memungkinkan pengambilan keputusan yang tepat dan efektif.
+Tantangan: Tantangan dalam mencapai Data Quality meliputi data yang tidak lengkap, tidak akurat, tidak konsisten, atau tidak terstandarisasi, serta masalah dalam pengumpulan, penyimpanan, dan pengelolaan data.
+Strategi: Strategi untuk meningkatkan Data Quality meliputi pemantauan terus-menerus terhadap data, pemrosesan data yang cermat, pemastian kualitas data otomatis, dan penerapan aturan dan kebijakan yang ketat terkait pengelolaan data.
+
+Data Governance:
+
+Definisi: Data Governance adalah kerangka kerja yang mendefinisikan tanggung jawab, kebijakan, prosedur, dan metrik untuk mengelola dan melindungi data dalam suatu organisasi. Ini mencakup pengaturan, pengawasan, dan pengendalian data.
+Tujuan: Tujuan dari Data Governance adalah memastikan bahwa data dikumpulkan, disimpan, dikelola, dan digunakan dengan cara yang konsisten, aman, dan sesuai dengan kebutuhan bisnis dan peraturan perundang-undangan yang berlaku.
+Tantangan: Tantangan dalam menerapkan Data Governance meliputi kesulitan dalam menentukan kepemilikan dan akuntabilitas data, serta perbedaan dalam kebutuhan bisnis, persyaratan hukum, dan kebijakan keamanan data.
+Strategi: Strategi untuk implementasi Data Governance meliputi pengembangan kebijakan dan prosedur yang jelas terkait manajemen data, penunjukan pemangku kepentingan dan pemimpin Data Governance, pemantauan kinerja dan kepatuhan, serta pelatihan dan kesadaran pengguna tentang pentingnya Data Governance.
+
+Pemahaman yang kuat tentang Data Quality dan Data Governance penting bagi organisasi untuk memastikan bahwa data yang digunakan untuk pengambilan keputusan bisnis adalah akurat, andal, aman, dan sesuai dengan peraturan perundang-undangan yang berlaku. 
+Hal ini membantu meningkatkan efisiensi operasional, mengurangi risiko, dan mendukung keputusan yang didukung oleh data.

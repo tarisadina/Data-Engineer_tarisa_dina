@@ -1,0 +1,27 @@
+Transformasi data yakni proses mengonversi data atau informasi dari satu format ke format lainnya, biasanya dari format sistem sumber ke dalam format yang diperlukan dari sistem tujuan baru.
+Proses yang biasa melibatkan konversi dokumen, tetapi konversi data terkadang melibatkan konversi program dari satu bahasa komputer ke bahasa lain untuk memungkinkan program berjalan pada platform yang berbeda.
+proses mengubah data dari satu format atau struktur ke format atau struktur lain. Proses ini adalah bagian integral dari alur kerja data, terutama dalam konteks integrasi data, analisis data, dan ETL (Extract, Transform, Load). 
+Berikut adalah beberapa poin penting tentang data transformation:
+
+Tujuan utama dari transformasi data adalah untuk memastikan bahwa data dalam bentuk yang konsisten, terstruktur, dan sesuai dengan kebutuhan analisis atau aplikasi yang dituju.
+Data transformation mengacu pada serangkaian teknik yang digunakan untuk mengubah data mentah menjadi format yang sesuai dan berguna untuk analisis atau tujuan lainnya.
+
+Cleaning (Pembersihan): Menghapus atau memperbaiki data yang salah, duplikat, atau tidak lengkap.
+Normalization (Normalisasi): Mengubah data numerik menjadi skala standar, seperti Min-Max Scaling atau Z-Score Scaling.
+Aggregation (Pengagregasian): Menggabungkan data dari berbagai sumber atau mengelompokkan data berdasarkan kriteria tertentu untuk mendapatkan nilai agregat (misalnya, rata-rata, total).
+Encoding: Mengubah data kategorikal menjadi format numerik yang dapat digunakan dalam analisis statistik atau algoritma machine learning, seperti one-hot encoding.
+Filtering (Penyaringan): Memilih subset data berdasarkan kondisi tertentu.
+Derivation (Derivasi): Membuat kolom baru berdasarkan data yang ada, seperti perhitungan nilai tambah atau perubahan dari waktu ke waktu.
+
+Extraction: Mengambil data mentah dari berbagai sumber seperti basis data, file CSV, API, dll.
+Transformation: Menerapkan berbagai teknik transformasi untuk membersihkan, mengubah, dan mempersiapkan data.
+Loading: Memuat data yang telah ditransformasi ke dalam sistem tujuan seperti data warehouse, data lake, atau alat analisis.
+
+ETL Tools: Alat seperti Apache NiFi, Talend, dan Informatica menyediakan platform untuk proses ETL yang komprehensif.
+Programming Languages: Bahasa pemrograman seperti Python dan R dengan pustaka seperti Pandas, NumPy, dan dplyr.
+SQL: Penggunaan SQL untuk transformasi data langsung di dalam basis data.
+
+Kualitas Data: Meningkatkan kualitas data dengan memastikan bahwa data bersih, lengkap, dan konsisten.
+Analisis yang Akurat: Memastikan bahwa analisis data dilakukan pada data yang relevan dan benar.
+Integrasi Data: Menggabungkan data dari berbagai sumber dalam format yang dapat digunakan bersama.
+Efisiensi Proses Bisnis: Memastikan bahwa data siap digunakan untuk pengambilan keputusan bisnis yang cepat dan efisien.

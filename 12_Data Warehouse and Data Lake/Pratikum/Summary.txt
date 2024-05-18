@@ -1,0 +1,43 @@
+Pengertian Data Warehouse
+Data Warehouse adalah sistem penyimpanan data yang dirancang untuk analisis dan pelaporan. Data warehouse mengumpulkan dan mengelola data dari berbagai sumber untuk menyediakan wawasan bisnis yang dapat digunakan untuk pengambilan keputusan. Data warehouse umumnya digunakan untuk mengkonsolidasikan data historis dan menyajikan pandangan terpadu dari seluruh organisasi.
+
+Karakteristik Data Warehouse:
+Terstruktur: Data di dalam data warehouse sangat terstruktur. Data yang masuk ke dalam data warehouse harus melalui proses ekstraksi, transformasi, dan pemuatan (ETL) untuk memastikan bahwa data tersebut sesuai dengan skema yang ditetapkan.
+
+Terintegrasi: Data warehouse mengintegrasikan data dari berbagai sumber, seperti sistem transaksi, CRM, ERP, dan lainnya, untuk memberikan pandangan komprehensif tentang bisnis.
+
+Non-Volatile: Setelah data dimasukkan ke dalam data warehouse, data tersebut tidak akan berubah atau dihapus. Ini memungkinkan pelacakan data historis.
+
+Berorientasi Subjek: Data diatur berdasarkan subjek bisnis utama seperti penjualan, pelanggan, atau produk, yang memungkinkan analisis mendalam di area tersebut.
+
+Dioptimalkan untuk Kuery dan Pelaporan: Data warehouse dioptimalkan untuk menjalankan kuery analitik yang kompleks, memungkinkan pengguna bisnis untuk membuat laporan dan analisis ad-hoc dengan cepat.
+
+
+Contoh Penggunaan Data Warehouse:
+Analisis Penjualan: Memungkinkan analisis penjualan dari waktu ke waktu, mengidentifikasi tren penjualan, performa produk, dan kinerja penjualan regional.
+Pelaporan Keuangan: Konsolidasi data keuangan untuk pelaporan keuangan perusahaan, termasuk anggaran, laba rugi, dan analisis pengeluaran.
+Analisis Pelanggan: Mengidentifikasi segmen pelanggan, perilaku pembelian, dan analisis retensi pelanggan.
+
+Jenis-jenis data warehouse pun ada banyak, yaitu:
+Enterprise data warehouse (edw) — Pusat penyimpanan data untuk seluruh bagian perusahaan
+Operational data warehouse — Lokasi penyimpanan data yang diperbarui dan digunakan secara rutin. Contohnya, jumlah transaksi per hari.
+Data mart — Tempat penyimpanan yang dirancang untuk departemen tertentu atau lingkup yang kecil. Misalnya, divisi marketing.
+
+Pengertian Data Lake
+Data Lake adalah repositori penyimpanan yang dapat menyimpan sejumlah besar data dalam berbagai format, baik yang terstruktur, semi-terstruktur, maupun tidak terstruktur. Data lake dirancang untuk menangkap dan menyimpan data dalam bentuk aslinya tanpa memerlukan skema yang ditentukan sebelumnya.
+
+Karakteristik Data Lake:
+Skala Besar: Data lake dapat menyimpan data dalam jumlah yang sangat besar, dari terabyte hingga petabyte.
+
+Format Fleksibel: Data lake mendukung berbagai format data seperti teks, JSON, XML, log file, gambar, video, dan lainnya.
+
+Data Mentah: Data lake menyimpan data dalam bentuk mentahnya atau bentuk asli tanpa transformasi awal. Transformasi dapat dilakukan saat data dibutuhkan untuk analisis.
+
+Cepat dan Efisien: Data lake memungkinkan pengambilan data dan analisis yang cepat karena data disimpan dalam bentuk mentah dan tidak perlu melalui proses ETL yang kompleks.
+
+Aksesibilitas: Data lake dirancang untuk diakses oleh berbagai alat analitik dan pembelajaran mesin, memungkinkan data scientist dan analis untuk menggunakan berbagai alat dan teknik untuk mengekstraksi wawasan.
+
+Contoh Penggunaan Data Lake:
+Pembelajaran Mesin: Data lake menyediakan data mentah yang dibutuhkan untuk pelatihan model pembelajaran mesin dan analitik lanjutan.
+Big Data Analytics: Analisis volume data besar dari berbagai sumber seperti log server, data sensor, media sosial, dan lainnya.
+Penelitian dan Pengembangan: Mengumpulkan dan menyimpan data eksperimental yang dapat dianalisis untuk pengembangan produk baru atau inovasi teknologi.

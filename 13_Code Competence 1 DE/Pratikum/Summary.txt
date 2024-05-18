@@ -1,0 +1,36 @@
+Sistem untuk menganalisis sentimen dari tweets menggunakan dataset ChatGPT Sentiment Analysis dari Kaggle. Sistem akan memproses data dan mengkategorikan sentimen ke dalam tiga kategori: good, bad, danneutral. Data akan dipisahkan ke dalam tiga file CSV berdasarkan kategorinya dan jumlah data per kategori akan dihitung dan disimpan.
+
+Code Competence 1 DE mengacu pada serangkaian kompetensi atau keterampilan yang harus dikuasai oleh seseorang untuk dianggap kompeten dalam domain tertentu, dalam konteks ini adalah Data Engineering. Ini mencakup pengetahuan, keterampilan teknis, dan kemampuan praktis yang diperlukan untuk melaksanakan tugas dan tanggung jawab sebagai seorang Data Engineer. Berikut adalah penjelasan terperinci mengenai berbagai aspek yang mungkin termasuk dalam "Code Competence 1 DE":
+Pemahaman Konsep Data Engineering
+Memahami konsep dasar dan prinsip-prinsip Data Engineering, termasuk pemahaman tentang peran dan tanggung jawab Data Engineer dalam suatu organisasi.
+Pemahaman tentang arsitektur data dan berbagai komponen seperti data lake, data warehouse, dan data mart.
+Memahami ETL (Extract, Transform, Load) dan ELT (Extract, Load, Transform) proses serta alat yang digunakan.
+Memahami konsep data modeling dan skema data (star schema, snowflake schema).
+
+Penguasaan Teknologi dan Alat Data Engineering
+Menguasai teknologi dan alat yang digunakan dalam Data Engineering untuk membangun, mengelola, dan mengoptimalkan infrastruktur data.
+Database Management Systems (DBMS): Menguasai SQL dan NoSQL database seperti MySQL, PostgreSQL, MongoDB, Cassandra.
+Big Data Technologies: Pengetahuan tentang Hadoop, Spark, dan alat-alat terkait untuk pengolahan data skala besar.
+Data Integration Tools: Familiar dengan alat ETL/ELT seperti Apache NiFi, Talend, Informatica, dan lainnya.
+Cloud Platforms: Pengalaman dengan layanan cloud seperti AWS (Redshift, S3), Google Cloud Platform (BigQuery, Cloud Storage), dan Azure (Azure SQL Data Warehouse, Blob Storage).
+
+Keterampilan Pemrograman
+Kemampuan untuk menulis kode yang efisien dan scalable untuk pengolahan data.
+Bahasa Pemrograman: Menguasai Python, Java, Scala, atau bahasa pemrograman lain yang sering digunakan dalam Data Engineering.
+Scripting: Kemampuan untuk menulis skrip untuk otomasi tugas-tugas ETL dan pengolahan data.
+Frameworks: Pengalaman dengan frameworks seperti Apache Kafka untuk streaming data, Airflow untuk orkestrasi data pipeline.
+
+Pengolahan dan Transformasi Data
+Kemampuan untuk mengolah dan mentransformasi data dari berbagai sumber menjadi format yang dapat digunakan untuk analisis.
+Menulis kueri SQL yang kompleks untuk mengolah data.
+Menggunakan library seperti Pandas di Python untuk manipulasi data.
+Memahami teknik-teknik pembersihan data dan normalisasi data.
+
+Kualitas Data dan Pengelolaan Metadata
+Menjamin kualitas data dan mengelola metadata untuk memastikan integritas data dan kemudahan akses.
+Implementasi validasi data dan pembersihan data otomatis.
+Mengelola katalog data dan metadata menggunakan alat seperti Apache Atlas atau DataHub.
+Menerapkan prinsip-prinsip data governance dan data stewardship.
+
+"Code Competence 1 DE" merujuk pada keterampilan dasar yang harus dimiliki oleh seorang Data Engineer untuk bisa berfungsi secara efektif dalam perannya. 
+Ini meliputi pemahaman konsep dasar, penguasaan alat dan teknologi, keterampilan pemrograman, kemampuan pengolahan data, serta kompetensi dalam aspek keamanan, kualitas, dan manajemen data. Dengan menguasai kompetensi-kompetensi ini, seorang Data Engineer dapat membantu organisasi dalam mengelola dan menganalisis data dengan lebih efektif dan efisien.

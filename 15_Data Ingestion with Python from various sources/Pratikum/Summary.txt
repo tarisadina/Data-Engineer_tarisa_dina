@@ -1,0 +1,30 @@
+Data Ingestion with Python from Various Sources adalah proses mengumpulkan dan memindahkan data dari berbagai sumber ke sistem penyimpanan atau analisis data menggunakan bahasa pemrograman Python. 
+Data ingestion adalah langkah pertama dalam alur kerja pengolahan data, memungkinkan data dari sumber berbeda untuk digabungkan, diproses, dan dianalisis.
+
+Pengertian dan Tujuan Data Ingestion
+Pengertian:
+Data ingestion adalah proses membawa data dari berbagai sumber eksternal ke dalam suatu sistem atau basis data untuk diproses lebih lanjut. Proses ini mencakup pengumpulan, pemindahan, dan penyimpanan data.
+
+Tujuan:
+Sentralisasi Data: Mengumpulkan data dari berbagai sumber ke satu tempat untuk kemudahan akses dan analisis.
+Analisis Data: Menyediakan data yang diperlukan untuk analisis, pembuatan laporan, atau model machine learning.
+Integrasi Data: Menggabungkan data dari berbagai format dan struktur menjadi satu bentuk yang konsisten.
+Sumber Data
+Data dapat berasal dari berbagai sumber seperti:
+
+File Sistem: CSV, Excel, JSON, XML, dan lainnya.
+Database: MySQL, PostgreSQL, MongoDB, dan lainnya.
+API: RESTful API, GraphQL, dan lainnya.
+Streaming Data: Kafka, Kinesis, dan lainnya.
+Web Scraping: Mengambil data dari halaman web menggunakan teknik scraping.
+
+Proses Data Ingestion dengan Python
+
+Membaca File Sistem:
+Python memiliki pustaka bawaan dan pihak ketiga yang memungkinkan membaca berbagai format file.
+CSV
+#import pandas as pd
+#data_csv = pd.read_csv('path_to_file.csv')
+
+Data ingestion dengan Python dari berbagai sumber adalah proses penting untuk mengumpulkan, memindahkan, dan menyimpan data dari berbagai sumber ke dalam sistem penyimpanan atau analisis. 
+Dengan menggunakan berbagai pustaka Python, proses ini dapat dilakukan dengan efisien dan fleksibel, memungkinkan integrasi data dari berbagai format dan struktur. Langkah-langkah yang umum meliputi membaca file sistem, menghubungkan ke database, mengakses API, mengonsumsi data streaming, dan melakukan web scraping.

@@ -1,0 +1,28 @@
+Big Data Technologies adalah seperangkat teknologi yang dirancang untuk mengelola, menyimpan, mengolah, dan menganalisis data dalam skala yang sangat besar atau kompleks yang dikenal sebagai big data. 
+Ini mencakup berbagai alat, platform, dan kerangka kerja yang digunakan untuk menangani tantangan yang terkait dengan volume data yang besar, kecepatan pemrosesan yang tinggi, dan keberagaman jenis data. 
+Berikut adalah penjelasan terperinci tentang Big Data Technologies:
+
+Sistem Penyimpanan Data: Big Data Technologies mencakup berbagai sistem penyimpanan data yang dirancang untuk menangani volume data yang besar dan meningkat. 
+Ini termasuk:
+
+- Sistem Basis Data NoSQL: Seperti Apache Cassandra, MongoDB, dan Apache HBase. Basis data NoSQL dirancang untuk skema yang fleksibel, kinerja tinggi, dan skala horizontal.
+- Penyimpanan Objek: Seperti Amazon S3, Google Cloud Storage, dan Azure Blob Storage. Penyimpanan objek adalah solusi penyimpanan skala besar yang cocok untuk data yang tidak terstruktur atau semi-struktur.
+- Sistem Penyimpanan Berbasis Kolom: Seperti Apache HBase dan Apache Parquet. Sistem ini dirancang untuk menganalisis data yang memiliki skema yang kompleks dan sering berubah.
+- Sistem Penyimpanan Terdistribusi: Seperti Apache Hadoop HDFS dan Apache Spark Storage. Sistem ini memungkinkan penyimpanan data yang terdistribusi di sejumlah node untuk meningkatkan ketersediaan dan redundansi.
+
+Framework Pemrosesan Data: Big Data Technologies menyediakan kerangka kerja untuk mengolah data dalam skala besar. 
+Ini termasuk:
+
+- Apache Hadoop: Kerangka kerja yang digunakan untuk menyimpan dan mengolah data yang sangat besar secara terdistribusi melalui komputasi batch.
+- Apache Spark: Kerangka kerja pemrosesan data yang cepat dan serbaguna yang mendukung pemrosesan streaming dan batch dengan API yang mudah digunakan.
+- Apache Flink: Sistem pemrosesan data real-time yang memungkinkan analisis data secara tepat waktu dan aliran data yang akurat.
+- Apache Kafka: Platform streaming data yang digunakan untuk mengumpulkan, menyimpan, dan mengirimkan aliran data secara real-time.
+
+Alat Pemrosesan Data: Big Data Technologies menyediakan berbagai alat untuk analisis dan transformasi data. 
+Ini termasuk:
+- Apache Hive: Sistem pergudangan data yang digunakan untuk kueri dan analisis data yang tersimpan di Hadoop HDFS menggunakan SQL-like query.
+- Apache Pig: Platform analisis data yang memungkinkan pemrosesan data paralel menggunakan skrip Pig Latin.
+- Apache Drill: Alat query SQL yang interaktif untuk analisis data terdistribusi yang dapat berjalan di atas berbagai sumber data.
+
+Secara keseluruhan, Big Data Technologies menyediakan seperangkat alat, teknologi, dan platform yang dibutuhkan untuk mengelola dan menganalisis data dalam skala besar. 
+Ini memungkinkan organisasi untuk mendapatkan wawasan berharga dari data mereka, meningkatkan efisiensi operasional, dan membuat keputusan yang didukung oleh data.

@@ -1,0 +1,28 @@
+Workflow orchestration atau orkestrasi alur kerja dengan Apache Airflow adalah proses pengoordinasian dan pengelolaan alur kerja atau pipeline tugas yang kompleks secara sistematis dan efisien. Apache Airflow adalah platform sumber terbuka yang digunakan untuk mengatur alur kerja sebagai Grafik Akrilik Terarah (DAG).
+
+Berikut adalah rincian konsep-konsep kunci terkait orkestrasi alur kerja dengan Airflow:
+
+Alur Kerja (Workflow): Alur kerja menggambarkan serangkaian tugas yang perlu dilakukan secara berurutan untuk mencapai hasil yang diinginkan. Alur kerja dapat berkisar dari proses linear sederhana hingga pipaian bercabang yang kompleks.
+
+Grafik Akrilik Terarah (DAG): Dalam Airflow, alur kerja direpresentasikan sebagai DAG, yang merupakan grafik terarah dengan simpul yang mewakili tugas dan tepi yang mewakili ketergantungan antartugas. DAG memastikan bahwa tugas-tugas dieksekusi dalam urutan yang benar berdasarkan ketergantungan mereka.
+
+Tugas (Task): Tugas mewakili unit kerja yang harus dilakukan sebagai bagian dari alur kerja. Tugas dapat berupa apapun mulai dari menjalankan skrip, mengeksekusi kueri SQL, mentransfer data, mengirim notifikasi, dll.
+
+Operator: Operator adalah komponen Airflow yang mendefinisikan tugas individu dalam sebuah DAG. Setiap operator sesuai dengan jenis tugas tertentu (misalnya, BashOperator untuk mengeksekusi perintah bash, PythonOperator untuk mengeksekusi fungsi Python, dll.).
+
+Ketergantungan (Dependency): Tugas-tugas dalam sebuah DAG dapat memiliki ketergantungan satu sama lain, artinya beberapa tugas harus selesai dengan sukses sebelum yang lain dapat dimulai. Airflow secara otomatis menangani ketergantungan tugas berdasarkan sifat terarah akrilik DAG.
+
+Penjadwal (Scheduler): Penjadwal Airflow bertanggung jawab untuk menentukan kapan dan bagaimana mengeksekusi tugas-tugas dalam sebuah DAG. Penjadwal terus memantau status tugas dan ketergantungan mereka, memastikan bahwa tugas-tugas dieksekusi dalam urutan yang benar dan pada waktu yang tepat.
+
+Pelaksana (Executor): Pelaksana bertanggung jawab untuk mengeksekusi tugas-tugas pada simpul pekerja. Airflow mendukung berbagai jenis pelaksana, termasuk SequentialExecutor (untuk eksekusi pada satu simpul) dan CeleryExecutor (untuk eksekusi terdistribusi menggunakan Celery).
+
+Plugin: Airflow memungkinkan untuk perluasan melalui plugin, yang dapat digunakan untuk menambahkan operator khusus, kait, sensor, dan komponen lainnya untuk meningkatkan fungsionalitas Airflow.
+
+Orkestrasi alur kerja dengan Airflow memberikan beberapa manfaat, termasuk:
+
+Skalabilitas: Airflow memungkinkan untuk eksekusi paralel tugas-tugas di beberapa simpul pekerja, membuatnya cocok untuk menangani alur kerja berskala besar.
+Toleransi Kesalahan: Airflow secara otomatis mencoba ulang tugas-tugas yang gagal dan mendukung pengulangan tingkat tugas, memastikan kekokohan dalam menghadapi kesalahan atau kegagalan.
+Pemantauan dan Pencatatan (Logging): Airflow menyediakan kemampuan pemantauan dan pencatatan bawaan, memungkinkan pengguna untuk melacak kemajuan alur kerja, memantau eksekusi tugas, dan mendiagnosis masalah.
+Fleksibilitas: Arsitektur berbasis DAG Airflow menawarkan fleksibilitas dalam mendefinisikan dan mengelola alur kerja, memungkinkan pengguna dengan mudah memodifikasi, menjadwalkan, dan mengeksekusi ulang alur kerja sesuai kebutuhan.
+Integrasi: Airflow berintegrasi dengan berbagai sumber data, basis data, layanan cloud, dan alat pihak ketiga lainnya, memungkinkan integrasi yang mulus dengan infrastruktur dan teknologi yang ada.
+Secara keseluruhan, orkestrasi alur kerja dengan Airflow memungkinkan organisasi untuk memperlancar dan mengotomatiskan pipaian data mereka, proses ETL, alur kerja pembelajaran mesin, dan tugas kompleks lainnya, yang menghasilkan peningkatan efisiensi, keandalan, dan produktivitas.
